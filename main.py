@@ -162,3 +162,13 @@ def logout():
     return redirect("/")
 
 app.run(host="0.0.0.0", port=10000)
+base_style = """
+<html>
+<head>
+<meta name="google-site-verification" content="XXXXX" />
+<style>
+body { background:#0f172a; color:white; font-family:Arial; text-align:center; }
+...
+</style>
+</head>
+"""
